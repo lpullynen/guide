@@ -1,0 +1,55 @@
+{
+  "proficiencyLevels": [
+    {
+      "id": "beginner",
+      "name": "Beginner",
+      "description": "Basic understanding or awareness of the competency"
+    },
+    {
+      "id": "intermediate",
+      "name": "Intermediate",
+      "description": "Can apply the competency with some supervision"
+    },
+    {
+      "id": "advanced",
+      "name": "Advanced",
+      "description": "Can perform independently and mentor others"
+    }
+  ],
+  "competencyCategories": [
+    {
+      "id": "communication",
+      "name": "Communication Skills",
+      "description": "Competencies related to verbal, written, and interpersonal communication",
+      "competencies": [
+        {
+          "id": "active_listening",
+          "name": "Active Listening",
+          "description": "Ability to fully concentrate, understand, respond, and remember what is being said"
+        },
+        {
+          "id": "public_speaking",
+          "name": "Public Speaking",
+          "description": "Ability to deliver information effectively to an audience"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "name": "Technical Skills",
+      "description": "Technical competencies required for professional roles",
+      "competencies": [
+        {
+          "id": "data_analysis",
+          "name": "Data Analysis",
+          "description": "Ability to collect, clean, and interpret data"
+        },
+        {
+          "id": "version_control",
+          "name": "Version Control",
+          "description": "Ability to use Git for code collaboration and history tracking"
+        }
+      ]
+    }
+  ]
+}

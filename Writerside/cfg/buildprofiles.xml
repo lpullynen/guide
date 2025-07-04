@@ -5,12 +5,20 @@
 
     <build-profile instance="ug">
         <variables>
+            <primary-color>#FF3D00</primary-color>
+            <header-logo>ForgeLight_logo.svg</header-logo>
             <noindex-content>true</noindex-content>
+            <custom-css>custom.css</custom-css>
             <algolia-id>3H4GK47Z1T</algolia-id>
             <algolia-index>guide-index</algolia-index>
             <algolia-api-key>92eb6e8a0592c0b063cdff40e2f03c6e</algolia-api-key>
             <algolia-show-logo>true</algolia-show-logo>
+            <custom-favicons>ForgeLight_logo.svg</custom-favicons>
+            <code-soft-wrap>true</code-soft-wrap>
+            <showDownloadButton>true</showDownloadButton>
+            <download-title>LinkedIn</download-title>
+            <download-page>https://www.linkedin.com/in/lev-pullynen/</download-page>
         </variables>
     </build-profile>
-
+    <icons><shared-src>/images/icons/</shared-src></icons>
 </buildprofiles>
