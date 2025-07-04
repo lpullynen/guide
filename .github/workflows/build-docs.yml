@@ -16,7 +16,7 @@ env:
   # IS_GROUP: 'true'  # Uncomment to build a group
   ALGOLIA_APP_NAME: '3H4GK47Z1T'
   ALGOLIA_INDEX_NAME: 'guide-index'
-  CONFIG_JSON_PRODUCT: 'guide'
+  CONFIG_JSON_PRODUCT: 'ug'
   CONFIG_JSON_VERSION: '1.0'
 
 jobs:
