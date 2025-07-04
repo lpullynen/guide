@@ -4,7 +4,18 @@
 
 <instance-profile id="ug"
                  name="User Guide"
-                 start-page="starter-topic.md">
+                 start-page="About-Forgelight.md">
 
+    <toc-element topic="About-Forgelight.md"/>
+    <toc-element topic="Competency-Center.md">
+        <toc-element topic="About-Competence-Center.md"/>
+        <toc-element topic="Create-competency-framework.md">
+            <toc-element topic="Import-competencies.md"/>
+        </toc-element>
+        <toc-element topic="Proficiency-requirements.md"/>
+        <toc-element topic="Add-user-competencies.md">
+            <toc-element topic="Define-your-competencies.md"/>
+        </toc-element>
+    </toc-element>
     <toc-element topic="starter-topic.md"/>
 </instance-profile>

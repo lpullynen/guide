@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/*TOC CUSTOM STYLES*/
+.toc-item {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+.toc-icon {
+    width: 20px;
+    height: 20px;
+}
+.toc-item:hover {
+    text-decoration:underline;
+}
+
+.definition-list__group {
+    border-radius:1rem;
+}
+
+.starting-page-card__description {
+    font-family: "DM Sans", sans-serif;
+}
+.starting-page-card, .section-starting-page-content__card {
+    border-radius: 1rem;
+}
+.article__p, .article__b {
+    font-family: "DM Sans", sans-serif;
+}
+.filepath {
+    font-family: "DM Sans", sans-serif;
+}
+/* SEARCH */
+
+.full-search__link  {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+.full-search__snippet, .full-search__placeholder {
+    font-family: "DM Sans", sans-serif;
+}
+.search-copyright p {
+    font-family: "DM Sans", sans-serif;
+}
+.full-search__image {
+    display: none;
+}
+.sub-title__edit-info {
+    font-family: "DM Sans", sans-serif;
+}
+
+.rs-h1, .rs-h2, .rs-h3, .rs-subtitle-2, .definition-list__title, .title__content,
+._modeClassic_joawza_135._dark_joawza_62 {
+    font-family: "DM Sans", sans-serif;
+}
+.wh-header__product-name {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.title__content {
+    font-weight:500;
+}
+
+/* Improve margins in lists */
+.list li {
+    margin-top: 16px;
+}
+
+.label__content {
+    border-radius:1rem;
+}
+
+.procedure-steps {
+    border-radius:1rem;
+}
+
+.micro-format__content {
+    border-radius:1rem;
+}
+
+.definition-list__group {
+    border-radius:1rem;
+}
+
+/* Shared base styles for all applicable groups */
+.prompt__content .definition-list .definition-list__group,
+.definition-list .definition-list .definition-list__group,
+.procedure-steps .definition-list .definition-list__group,
+.micro-format__content .definition-list .definition-list__group {
+    padding: 0 0 11px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--wh-color-border-default);
+
+}
+
+/* Remove border for last-child in all applicable contexts */
+.prompt__content .definition-list .definition-list__group:last-child,
+.definition-list .definition-list .definition-list__group:last-child,
+.procedure-steps .definition-list .definition-list__group:last-child,
+.micro-format__content .definition-list .definition-list__group:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Only add background:none where necessary */
+.prompt__content .definition-list .definition-list__group,
+.procedure-steps .definition-list .definition-list__group,
+.micro-format__content .definition-list .definition-list__group {
+    background: none;
+}
+
+
+.link__popover {
+    border: 1px solid var(--wh-color-border-default);
+    border-radius: 1rem;
+    display:inline-block;
+}
