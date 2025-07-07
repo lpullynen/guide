@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+:root{
+    --wh-color-text-secondary: rgba(0, 0, 0, 0.82);
+    --wh-color-success: #00c2ff;
+    --note-color: #00c2ff4a;
+}
+
+:root.theme-dark{
+    --wh-color-success: #00c2ff;
+    --note-color: #00c2ff4a;
+}
+
 /*TOC CUSTOM STYLES*/
 .toc-item {
     font-family: "DM Sans", sans-serif;
@@ -115,4 +126,8 @@
     border: 1px solid var(--wh-color-border-default);
     border-radius: 1rem;
     display:inline-block;
+}
+
+.prompt__wrapper--type-note {
+    background: var(--note-color);
 }
