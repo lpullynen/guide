@@ -2,7 +2,7 @@
 
 <section-starting-page>
 <title>Competency Center</title>
-<description>Create and manage competencies in your organization.</description>
+<description>Create a manage competencies in your organization.</description>
 <spotlight>
 <a href="About-Competence-Center.md">About Competence Center</a>
 <a href="Create-competency-framework.md">Create competency framework</a>

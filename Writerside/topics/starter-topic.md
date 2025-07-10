@@ -2,7 +2,7 @@
 
 This project is a personal **technical writing portfolio** built using a Writerside-based documentation structure.
 It presents a fictional product called **ForgeLight**, a modular platform for learning and development,
-to demonstrate various documentation skills in a realistic context.
+to demonstrate a variety of documentation skills in a realistic context.
 
 All content is original and created solely for demonstration purposes.
 
@@ -18,6 +18,6 @@ All content is original and created solely for demonstration purposes.
 ## Notes
 
 This project is fictional and not associated with any real company or product. 
-There are no screenshots, because the product doesn't exist.
+There are no screenshots, as it doesn't exist.
 
 It is intended purely as a demonstration of technical writing workflows and tool proficiency.
