@@ -2,15 +2,15 @@
 
 # Create competency framework
 
-It is important to have a well-structured competency framework.
+It is important to have a well-structured competency framework to monitor your company's expertise.
 
-You can either create it manually, or import competencies via JSON.
+You can either create the framework manually, or [import it via JSON](Import-competencies.md).
 
-There are three components in a framework: proficiency levels, competency categories, and competencies themselves.
+A competency framework has three main components: proficiency levels, competency categories, and competencies themselves.
 
 ### Proficiency levels
 
-Proficiency levels define the level of expertise in a particular skill.
+Proficiency levels define the level of expertise in a particular skill. This helps you compare user competencies and identify growth areas.
 
 <procedure title="Add proficiency levels">
     <step>Go to <control>Competency Center > Proficiency levels</control>.</step>
@@ -33,13 +33,13 @@ Proficiency levels define the level of expertise in a particular skill.
 
 ### Competency categories
 
-Categories allow you to organize your competency framework into neat sections and subsections.
-This approach will make the framework easy to navigate and browse both for learners and managers.
+Categories organize your competency framework into neat sections and subsections.
+This approach makes the framework easy to navigate both for learners and managers.
 
 You can also hide certain categories from selected user groups, if they are irrelevant to them.
 
 <tip>
-It is a good idea to create categories first before creating competencies,
+It is a good idea to create categories <emphasis>before</emphasis> creating competencies,
 so that you can immediately specify a parent category for them.
 </tip>
 
@@ -72,7 +72,7 @@ You can add a subcategory to any category using the same procedure.
     <step>Follow the <a href="#competency-categories">same steps</a> as when creating a parent group.</step>
 </procedure>
 
-You can hide categories from certain user groups, if needed, since not all competencies are relevant to all users.
+You can hide categories from certain user groups, if needed, because not all competencies are relevant to all users.
 <procedure title="Set category visibility" id="hide_category">
     <step>Go to <ui-path>Competency Center > Competencies</ui-path>.</step>
     <step>Find the category in the list and click <icon src="MoreActions.svg"/><control>Actions</control> > <control>Edit category</control>.</step>
@@ -94,8 +94,7 @@ A competency describes a specific skill or work knowledge.
 <procedure title="Add competencies">
 <step>Go to <ui-path>Competency Center > Competencies</ui-path>.</step>
 <step>Click <control>+ Add competency</control>. 
-    <tip>If you open an existing competency category first, you can immediately add a new competency to it
-    by clicking <control>+ Add competency</control> <emphasis>inside</emphasis> that group. </tip>
+    <tip>To add competency to an existing category, open the category and click <control>+ Add competency</control> <emphasis>inside</emphasis> that category. You can change the parent category in the next step, if needed.</tip>
 </step>
 <step>Fill in the details:
 <deflist type="narrow">
@@ -106,8 +105,8 @@ The name of the competency, for example, "Team leadership".
 Describe the competency. For example, "Team leadership involves guiding and motivating a group to achieve common goals."
 </def>
 <def title="Parent category">
-If you have existing categories, you can define which one is the parent group for this competency. Otherwise, it will be put on a root level.
-<warning>We strongly recommend using <a href="#add-category" summary="">categories</a> to organize your competency framework. Uncategorized competencies are sorted alphabetically.</warning>
+If you have existing <a href="#competency-categories">categories</a>, you can define which one is the parent group for this competency.
+<warning>Uncategorized competencies are sorted alphabetically at the root level of the competency list.</warning>
 </def>
 </deflist>
 </step>

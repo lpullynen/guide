@@ -5,9 +5,9 @@ By default, users cannot change their competencies manually.
 You can allow users to edit or add their personal competencies under the [created framework](Create-competency-framework.md).
 They don't need permissions to add personal growth goals.
 
-<note>As Competency Admin or Competency Manager, you can always change your personal competencies.</note>
+<note>As Competency Manager, you can always change your personal competencies.</note>
 
-## Self-review settings
+## Enable self-review
 
 If you want to allow normal users to change their competencies,
 you need to enable the corresponding setting.
@@ -24,9 +24,7 @@ you need to enable the corresponding setting.
 <step>Click <control>Save</control> to confirm your changes.</step>
 </procedure>
 
-## Edit your competencies
-
-If allowed by the settings, users can add new competencies and edit existing ones. 
+When allowed by the settings, normal users can add new competencies and edit existing ones. 
 
 <procedure title="Edit your competencies">
 <step>Go to <ui-path>Competency Center > My competencies</ui-path>.</step>
@@ -38,6 +36,8 @@ If allowed by the settings, users can add new competencies and edit existing one
 </procedure>
 
 ## Set growth goals
+
+Growth goals reflect your personal development plans. They are visible to Competency Managers.
 
 <procedure title="Set growth goals" id="set_growth_goals">
 <step>Go to <ui-path>Competency Center > My competencies</ui-path>.</step>

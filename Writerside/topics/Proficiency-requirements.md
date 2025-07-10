@@ -5,8 +5,9 @@
 You can set proficiency level requirements for specific user groups.
 This is essential to identify growth areas, which is the difference between the current proficiency level and requirement.
 
-These requirements will be displayed to each user in their competencies, letting them know the level they need to be at.
-As Competency Admin or Competency Manager, you will also see these requirements, when browsing user competencies.
+Users can see the requirements in their competencies. They also get notifications, if there are any changes to the requirements. 
+
+As Competency Manager, you will also see these requirements when browsing user competencies.
 
 <procedure title="Set proficiency requirements" id="set_proficiency_requirements">
 <step>Go to <ui-path>Competency Center > Proficiency requirements</ui-path> and click <control>Set requirements</control>.
