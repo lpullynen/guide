@@ -10,69 +10,15 @@ If you already have some data in place, the import will only update the data tha
 <note>You can download a <resource src="import_sample.json">sample JSON file</resource> to serve as a basis.
 It includes some examples of levels, competencies, and categories.</note>
 
+
 <warning>The imported file size should not exceed 5 MB.</warning>
 
 ## JSON file structure 
 
 Here's the content structure of the sample file.
 
-<code-block lang="JSON" collapsible="true" show-white-spaces="true" collapsed-title="import_sample.json">
-{
-  "proficiencyLevels": [
-    {
-      "id": "beginner",
-      "name": "Beginner",
-      "description": "Basic understanding or awareness of the competency"
-    },
-    {
-      "id": "intermediate",
-      "name": "Intermediate",
-      "description": "Can apply the competency with some supervision"
-    },
-    {
-      "id": "advanced",
-      "name": "Advanced",
-      "description": "Can perform independently and mentor others"
-    }
-  ],
-  "competencyCategories": [
-    {
-      "id": "communication",
-      "name": "Communication Skills",
-      "description": "Competencies related to verbal, written, and interpersonal communication",
-      "competencies": [
-        {
-          "id": "active_listening",
-          "name": "Active Listening",
-          "description": "Ability to fully concentrate, understand, respond, and remember what is being said"
-        },
-        {
-          "id": "public_speaking",
-          "name": "Public Speaking",
-          "description": "Ability to deliver information effectively to an audience"
-        }
-      ]
-    },
-    {
-      "id": "technical",
-      "name": "Technical Skills",
-      "description": "Technical competencies required for professional roles",
-      "competencies": [
-        {
-          "id": "data_analysis",
-          "name": "Data Analysis",
-          "description": "Ability to collect, clean, and interpret data"
-        },
-        {
-          "id": "version_control",
-          "name": "Version Control",
-          "description": "Ability to use Git for code collaboration and history tracking"
-        }
-      ]
-    }
-  ]
-}
-</code-block>
+[//]: # (Content referenced from a file)
+<code-block lang="JSON" collapsible="true" show-white-spaces="true" collapsed-title="import_sample.json" src="import_sample.json"/>
 
 ### Root level
 The root level includes the proficiency levels and categories to be imported.

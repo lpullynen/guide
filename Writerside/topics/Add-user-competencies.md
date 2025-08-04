@@ -1,6 +1,6 @@
 # Set user competencies
 
-As Competency Manager, you can manually add and edit competencies for other users through the Competency Center.
+As a Competency Manager, you can manually add and edit competencies for other users through the Competency Center.
 
 <procedure title="Set competencies for a single user" id="set_competency_for_a_single_user">
 <step>Go to <ui-path>Competency Center > Users</ui-path> and find the user.</step>

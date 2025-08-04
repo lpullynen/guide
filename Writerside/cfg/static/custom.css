@@ -28,6 +28,11 @@
     border-radius:1rem;
 }
 
+.definition-list__title {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
 .starting-page-card__description {
     font-family: "DM Sans", sans-serif;
 }

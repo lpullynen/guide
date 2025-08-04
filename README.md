@@ -12,6 +12,7 @@ All content is original and created solely for demonstration purposes.
 - Use of **Git** for version control.
 - Application of **CSS** to customize various elements and improve readability.
 - Custom iconography created in a vector editor (logo and cards).
+- Content reuse, where applicable.
 - Topic-based content organization with support for multiple user roles.
 - Example content types: concept topics, how-to guides, UI reference, API reference, and release notes.
 

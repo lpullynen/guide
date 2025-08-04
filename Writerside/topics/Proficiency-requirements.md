@@ -7,7 +7,8 @@ This is essential to identify growth areas, which is the difference between the 
 
 Users can see the requirements in their competencies. They also get notifications, if there are any changes to the requirements. 
 
-As Competency Manager, you will also see these requirements when browsing user competencies.
+As a Competency Manager, you will also see these requirements when browsing user competencies. You can use this information, 
+when creating mentoring programs.  
 
 <procedure title="Set proficiency requirements" id="set_proficiency_requirements">
 <step>Go to <ui-path>Competency Center > Proficiency requirements</ui-path> and click <control>Set requirements</control>.
