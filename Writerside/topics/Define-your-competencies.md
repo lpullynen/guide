@@ -1,11 +1,11 @@
 # Set your own competencies
 
-By default, users cannot change their competencies manually. 
+By default, users cannot change their own competencies manually. 
 
 You can allow users to edit or add their personal competencies under the [created framework](Create-competency-framework.md).
 They don't need permissions to add personal growth goals.
 
-<note>As Competency Manager, you can always change your personal competencies.</note>
+<note>As a Competency Manager, you can always change your personal competencies.</note>
 
 ## Enable self-review
 

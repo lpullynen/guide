@@ -7,8 +7,8 @@
                  start-page="About-Forgelight.md">
 
     <toc-element topic="About-Forgelight.md"/>
+    <toc-element topic="Get-started.md"/>
     <toc-element topic="Competency-Center.md">
-        <toc-element topic="About-Competence-Center.md"/>
         <toc-element topic="Create-competency-framework.md">
             <toc-element topic="Import-competencies.md"/>
         </toc-element>
@@ -16,6 +16,14 @@
         <toc-element topic="Add-user-competencies.md">
             <toc-element topic="Define-your-competencies.md"/>
         </toc-element>
+    </toc-element>
+    <toc-element topic="Mentoring-Programs.md">
+        <toc-element topic="Create-mentoring-program.md"/>
+        <toc-element topic="Join-mentoring-program.md"/>
+    </toc-element>
+    <toc-element toc-title="Release notes">
+        <toc-element topic="Forgelight-2-0.md"/>
+        <toc-element topic="Forgelight-1-5.md"/>
     </toc-element>
     <toc-element topic="starter-topic.md">
     </toc-element>
